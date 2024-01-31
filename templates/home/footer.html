@@ -1,0 +1,110 @@
+{% load static %}
+
+<footer id="contact-us" class="aximo-footer-section dark-bg">
+    <div class="container">
+        <div class="aximo-footer-top aximo-section-padding">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="aximo-default-content light position-relative">
+                        <h2>
+                <span class="aximo-title-animation">
+                  Ready to make
+                  <span class="aximo-title-icon">
+                    <img src="{% static 'assets/images/v1/star2.png' %}" alt="">
+                  </span>
+                </span>
+                            your event dreams a reality?
+                        </h2>
+                        <p>Your vision. Our expertise. Unforgettable memories. Ready to make your event dreams a
+                            reality? Let's chat! Fill out this form or give us a call, and we'll turn your wildest ideas
+                            into stunning celebrations.</p>
+                        <div class="aximo-info-wrap">
+                            <div class="aximo-info">
+                                <ul>
+                                    <li>Give us a call:</li>
+                                    <li><a href="">73494 14777</a></li>
+                                </ul>
+                            </div>
+                            <div class="aximo-info">
+                                <ul>
+                                    <li>Email us:</li>
+                                    <li><a href="">hello@thefunctionjunction.co.in</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="aximo-social-icon social-large">
+                            <ul>
+                                <li>
+                                    <a href="https://twitter.com/" target="_blank">
+                                        <i class="icon-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://facebook.com/" target="_blank">
+                                        <i class="icon-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/" target="_blank">
+                                        <i class="icon-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/" target="_blank">
+                                        <i class="icon-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="aximo-hero-shape aximo-footer-shape">
+                            <img src="{% static 'assets/images/v1/shape1.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="aximo-form-wrap">
+                        <h4>Send us a message</h4>
+                        <form method="post" action="{% url 'contact' %}">
+                            <div class="aximo-form-field">
+                                {% csrf_token %}
+                            </div>
+                            <div class="aximo-form-field">
+                                <input type="text" placeholder="Your name">
+                            </div>
+                            <div class="aximo-form-field">
+                                <input type="email" placeholder="Your email address">
+                            </div>
+                            <div class="aximo-form-field">
+                                <input type="text" placeholder="Your Phone">
+                            </div>
+                            <div class="aximo-form-field">
+                                <textarea name="textarea" placeholder="Write your message here..."></textarea>
+                            </div>
+                            <button id="aximo-submit-btn" type="submit">Send message <span><img
+                                    src="{% static 'assets/images/icon/arrow-right3.svg' %}" alt=""></span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="aximo-footer-bottom">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="aximo-footer-logo">
+                        <a href="">
+                            <h6 style="color: wheat">Function Junction</h6>
+                            {#                            <img src="{% static 'assets/images/logo/logo-white.svg' %}" alt="">#}
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="aximo-copywright one">
+                        <p> &copy; Copyright 2024, All Rights Reserved. Built by Brandxpt.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</footer>

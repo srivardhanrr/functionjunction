@@ -1,0 +1,29 @@
+{% load static %}
+
+<div class="section dark-bg aximo-section-padding">
+    <div class="container">
+        <div class="aximo-section-title center light">
+            <h2>
+                Gallery
+                <span class="aximo-title-animation">
+{#            creative projects#}
+            <span class="aximo-title-icon">
+              <img src="{% static 'assets/images/v1/star2.png' %}" alt="">
+            </span>
+          </span>
+            </h2>
+        </div>
+    </div>
+    <div class="swiper aximo-project-slider">
+        <div class="swiper-wrapper">
+            {% for i in gallery %}
+            <div class="swiper-slide">
+                <div class="aximo-project-thumb">
+                    <img src="{{ i.image.url }}" alt="">
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>

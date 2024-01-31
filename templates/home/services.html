@@ -1,0 +1,43 @@
+{% load static %}
+
+    <div id="services" class="section aximo-project-page aximo-section-padding5">
+        <div class="container">
+        <div class="aximo-section-title center">
+                <h2>
+                    What We
+                    <span class="aximo-title-animation">
+            Offer
+            <span class="aximo-title-icon">
+              <img src="{% static 'assets/images/v1/star2.png' %}" alt="">
+            </span>
+          </span>
+                </h2>
+            </div>
+            <div class="row">
+                {% for service in services %}
+                    <div class="col-lg-6">
+                        <div style="max-height: 300;" class="aximo-project-thumb wow fadeInUpX" data-wow-delay="-1s">
+                            <img src="{{ service.image.url }}" alt="">
+                            <div style="background: linear-gradient(180deg, rgba(0, 0, 0, 0) 35.42%, #000 100%);opacity: 1; visibility: visible" class="aximo-project-wrap">
+                                <div style="" class="aximo-project-data">
+{#                                    <a href="single-portfolio.html">#}
+                                        <h3>{{ service.name }}</h3>
+{#                                    </a>#}
+                                    <p>{{ service.description }}</p>
+                                </div>
+                                {#              <a class="aximo-project-icon" href="single-portfolio.html">#}
+                                {#                <svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">#}
+                                {#                  <path d="M19.9795 2C19.9795 2 20.5 8 25.9795 11.2C28.4887 12.6653 31.9795 14 31.9795 14M31.9795 14H2M31.9795 14C31.9795 14 28.5339 15.415 25.9795 16.8C19.9795 20.0533 19.9795 26 19.9795 26" stroke="#FDFDE1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />#}
+                                {#                </svg>#}
+                                {#              </a>#}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+
+
+            

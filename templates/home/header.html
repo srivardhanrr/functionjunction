@@ -1,0 +1,52 @@
+{% load static %}
+
+<header class="site-header aximo-header-section aximo-header1 dark-bg" id="sticky-menu">
+    <div class="container">
+        <nav class="navbar site-navbar">
+            <!-- Brand Logo-->
+            <div class="brand-logo">
+                <a href="{% url 'home' %}">
+                    <h6 style="color: wheat">Function Junction</h6>
+{#                    <img src="{% static 'assets/images/logo/logo-white.svg' %}" alt="" class="light-version-logo">#}
+                </a>
+            </div>
+            <div class="menu-block-wrapper">
+                <div class="menu-overlay"></div>
+                <nav class="menu-block" id="append-menu-header">
+                    <div class="mobile-menu-head">
+                        <div class="go-back">
+                            <i class="fa fa-angle-left"></i>
+                        </div>
+                        <div class="current-menu-title"></div>
+                        <div class="mobile-menu-close">&times;</div>
+                    </div>
+                    <ul class="site-menu-main">
+                        <li class="nav-item">
+                            <a href="#about-us" class="nav-link-item">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#gallery" class="nav-link-item">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link-item">What we Offer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact-us" class="nav-link-item">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
+                <a class="aximo-default-btn pill aximo-header-btn" href="#contact-us">
+                    Contact Us
+                </a>
+            </div>
+            <!-- mobile menu trigger -->
+            <div class="mobile-menu-trigger light">
+                <span></span>
+            </div>
+            <!--/.Mobile Menu Hamburger Ends-->
+        </nav>
+    </div>
+</header>
