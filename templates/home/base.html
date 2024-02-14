@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aximo || Responsive HTML 5 Template</title>
+  <title>Welcome to The Function Junction!</title>
 
   <link rel="shortcut icon" href="{% static 'assets/images/favicon.ico' %}" type="image/x-icon">
   <link rel="icon" href="{% static 'assets/images/favicon.ico' %}" type="image/x-icon">
@@ -43,12 +43,15 @@
   </div>
   
   {% include 'home/header.html' %}
+
+    <div class="aximo-all-section bg-light3">
   
   {% block content %}
   {% endblock %}
+    </div>
   
   <!-- Footer  -->
-  {% include 'home/footer.html' %}
+{#  {% include 'home/footer.html' %}#}
 
   <!-- scripts -->
   <script src="{% static 'assets/js/jquery-3.6.0.min.js' %}"></script>

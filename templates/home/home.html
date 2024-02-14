@@ -2,130 +2,290 @@
 {% load static %}
 
 {% block content %}
-    <div class="aximo-hero-section dark-bg">
-        <div class="container position-relative">
+
+    <div class="aximo-hero-section4 aximo-section-padding5"
+         style="background-image: url({% static 'assets/images/home/about.webp' %})">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="aximo-hero-content">
+                    <div class="aximo-hero-content4">
+                        <p><span>Welcome to The Function Junction</span></p>
                         <h1>
-              <span class="aximo-title-animation">
-                Let's get your <img src="{% static 'assets/images/v1/star.png' %}" alt="">
-              </span>
-                            function to the Junction of fun!
+                            Transforming your ideas into
+                            <span class="aximo-hero-shape-title">
+                experiences
+                <span class="aximo-hero-round-shape">
+                  <img src="{% static 'assets/images/v4/round-shape.png' %}" alt="">
+                </span>
+                </span>
                         </h1>
-                        <p>Let Function Junction handle the hassle, you handle the smiles. We're the event planners who
-                            make every celebration effortless and extraordinary.</p>
-                        {#                                                <div class="aximo-hero-user-wrap">#}
-                        {#                                                    <div class="aximo-hero-user-thumb">#}
-                        {#                                                        <div class="aximo-hero-user-thumb-item wow fadeInUpX" data-wow-delay="0s">#}
-                        {#                                                            <img src="{% static 'assets/images/v1/user1.png' %}" alt="">#}
-                        {#                                                        </div>#}
-                        {#                                                        <div class="aximo-hero-user-thumb-item wow fadeInUpX" data-wow-delay="0.25s">#}
-                        {#                                                            <img src="{% static 'assets/images/v1/user3.png' %}" alt="">#}
-                        {#                                                        </div>#}
-                        {#                                                        <div class="aximo-hero-user-thumb-item wow fadeInUpX" data-wow-delay="0.4s">#}
-                        {#                                                            <img src="{% static 'assets/images/v1/user2.png' %}" alt="">#}
-                        {#                                                        </div>#}
-                        {#                                                    </div>#}
-                        {#                                                    <div class="aximo-hero-user-data">#}
-                        {#                                                        <p>Believed by more than a thousand people</p>#}
-                        {#                                                    </div>#}
-                        {#                                                </div>#}
-                        <a class="aximo-call-btn" href="#contact-us">Book a free consultation <i
-                                class="icon-call"></i></a>
-                        <div class="aximo-hero-shape">
-                            <img src="{% static 'assets/images/v1/shape1.png' %}" alt="">
+                        <p>We're dedicated to helping businesses grow and succeed. With years of industry experience and
+                            a passion for problem-solving, we offer top-level consulting services tailored to your
+                            unique needs.</p>
+                        <div class="aximo-hero-btn-wrap d-block">
+                            <a class="aximo-default-btn pill blue-btn wow fadeInUpX" data-wow-delay="0.1s"
+                               href="contact-us.html">
+                                Schedule a meeting
+                            </a>
+
+                            <a class="aximo-default-btn aximo-default-btn-outline pill outline-white wow fadeInUpX"
+                               data-wow-delay="0.2s" href="portfolio-01.html">
+                                <span class="aximo-label-up">View all projects</span>
+                                <span class="aximo-label-up">View all projects</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="aximo-hero-thumb wow fadeInRight" data-wow-delay="0s">
-                        <img src="{% static 'assets/images/home/home.webp' %}" alt="">
+                <div class="col-lg-4 d-flex align-items-end justify-content-center">
+                    <div class="aximo-hero-video-section">
+                        <a class="aximo-video-popup3 video-init" href="https://www.youtube.com/watch?v=7e90gBu4pas">
+                            <img class="aximo-video-circle" src="{% static 'assets/images/v4/circle-play.png' %}"
+                                 alt="">
+                            <img class="aximo-video-icon" src="{% static 'assets/images/v4/play-icon.svg' %}" alt="">
+                        </a>
                     </div>
+                    <!-- End section -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- End section -->
-    <div class="aximo-auto-slider-section">
-        <div class="swiper aximo-auto-slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="aximo-auto-slider-item">
-                        <h3>Let's create new experiences</h3>
-                        <img src="{% static 'assets/images/v1/star3.png' %}" alt="">
+    <!-- End sction -->
+
+    <div class="section aximo-section-padding5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="aximo-content-thumb border-radius wow fadeInLeft" data-wow-delay=".1s">
+                        <img src="{% static 'assets/images/v3/thumb2.png' %}" alt="">
+                        <div style="position: absolute;
+  top: -90px;
+  left: -40px;
+  animation: float-left-right 5s ease-in-out infinite;"
+                                {#                   class="aximo-thumb-shape4"#}
+                        >
+                            <img src="{% static 'assets/images/v4/shape2.png' %}" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="aximo-auto-slider-item">
-                        <h3>Let's create new experiences</h3>
-                        <img src="{% static 'assets/images/v1/star3.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-auto-slider-item">
-                        <h3>Let's create new experiences</h3>
-                        <img src="{% static 'assets/images/v1/star3.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-auto-slider-item">
-                        <h3>Let's create new experiences</h3>
-                        <img src="{% static 'assets/images/v1/star3.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-auto-slider-item">
-                        <h3>Let's create new experiences</h3>
-                        <img src="{% static 'assets/images/v1/star3.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-auto-slider-item">
-                        <h3>Let's create new experiences</h3>
-                        <img src="{% static 'assets/images/v1/star3.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-auto-slider-item">
-                        <h3>Let's create new experiences</h3>
-                        <img src="{% static 'assets/images/v1/star3.png' %}" alt="">
+                <div class="col-lg-7">
+                    <div class="aximo-default-content arimo-font m-left-gap">
+                        <span class="aximo-subtitle">Why choose us</span>
+                        <h2>Ensure the Greatness of your next event.</h2>
+                        {#              <p>In today's complex and rapidly changing business environment, we help businesses adapt, grow & succeed. Our expertise, objectivity, and ability to provide customized solutions.</p>#}
+                        {#              <p> <strong>Industry Expertise:</strong> Our team of seasoned consultants brings wealth of knowledge and experience across various industries. </p>#}
+                        {#              <p> <strong>Results-Driven Approach:</strong> Our proven methodologies and data-driven strategies ensure that your business reaches. </p>#}
+                        <div class="aximo-list-icon">
+                            <ul>
+                                <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Deliver High Quality
+                                    for all Events
+                                </li>
+                                <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Perfect Decor</li>
+                                <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Blending Fresh Ideas &
+                                    new Twists
+                                </li>
+                                <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> End-to-End Solutions
+                                </li>
+                                <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Budget Friendly</li>
+                                <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Budget
+                                    Friendly-Customised Events
+                                </li>
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="section aximo-section-padding2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="aximo-content-thumb-wrap">
+                        <div class="aximo-content-thumb2 wow fadeInUpX" data-wow-delay="0.1s">
+                            <img src="{% static 'assets/images/v3/thumb3.png' %}" alt="">
+                        </div>
+                        <div style="  position: absolute;
+  bottom: 0;
+  left: -26%;"
+                                {#                             class="aximo-thumb-shape1"#}
+                        >
+                            <img src="{% static 'assets/images/v3/shape3.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="aximo-default-content familjen-grotesk">
+                        <h2>Planning for an Event?</h2>
+                        <p>We will do it all...</p>
+                        <div class="aximo-accordion-wrap aximo-accordion-wrap3">
+                            <div class="aximo-accordion-item open">
+                                <div class="aximo-accordion-header">
+                                    <p>Corporate Events</p>
+                                </div>
+                                <div class="aximo-accordion-body">
+                                    <ul>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Annual Function
+                                        </li>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Award Ceremony
+                                        </li>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Conference &
+                                            Seminars
+                                        </li>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Team
+                                            Get-Together
+                                        </li>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Corporate
+                                            Dinners
+                                        </li>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Workshops &
+                                            Training
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="aximo-accordion-item">
+                                <div class="aximo-accordion-header">
+                                    <p>Industrial Events</p>
+                                </div>
+                                <div class="aximo-accordion-body">
+                                    <ul>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Annual Day
+                                            Function
+                                        </li>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Cultural Events
+                                        </li>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Fresher's Party
+                                        </li>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Alumini Meet
+                                        </li>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Product
+                                            Launches
+                                        </li>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> College Fests
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="aximo-accordion-item">
+                                <div class="aximo-accordion-header">
+                                    <p>Social Events</p>
+                                </div>
+                                <div class="aximo-accordion-body">
+                                    <ul>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Themed Birthday
+                                        </li>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Parties
+                                        </li>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Baby Shower
+                                        </li>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Cultural Fests
+                                        </li>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Anniversary
+                                        </li>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Naming Ceremony
+                                        </li>
+                                        <li><img src="{% static 'assets/images/v3/check.svg' %}" alt=""> Bridal Showers
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    {#    <div id="about-us" style="border-radius: 1%" class="aximo-about-section bg-orange extra-side-margin">#}
-    {#        <div id="aximo-counter"></div>#}
-    {#        <div class="container">#}
+    {#    <div class="aximo-hero-section">#}
+    {#        <div class="container position-relative">#}
     {#            <div class="row">#}
-    {#                <div class="col-lg-5">#}
-    {#                    <div class="aximo-thumb" id="rotatetwo">#}
-    {#                        <img src="{% static 'assets/images/v2/thumb.png' %}" alt="">#}
+    {#                <div class="col-lg-8">#}
+    {#                    <div class="aximo-hero-content">#}
+    {#                        <h1>#}
+    {#              <span class="aximo-title-animation">#}
+    {#                Let's get your <img src="{% static 'assets/images/v1/star.png' %}" alt="">#}
+    {#              </span>#}
+    {#                            function to the Junction of fun!#}
+    {#                        </h1>#}
+    {#                        <p>Let Function Junction handle the hassle, you handle the smiles. We're the event planners who#}
+    {#                            make every celebration effortless and extraordinary.</p>#}
+    {#                                                <div class="aximo-hero-user-wrap">#}
+    {#                                                    <div class="aximo-hero-user-thumb">#}
+    {#                                                        <div class="aximo-hero-user-thumb-item wow fadeInUpX" data-wow-delay="0s">#}
+    {#                                                            <img src="{% static 'assets/images/v1/user1.png' %}" alt="">#}
+    {#                                                        </div>#}
+    {#                                                        <div class="aximo-hero-user-thumb-item wow fadeInUpX" data-wow-delay="0.25s">#}
+    {#                                                            <img src="{% static 'assets/images/v1/user3.png' %}" alt="">#}
+    {#                                                        </div>#}
+    {#                                                        <div class="aximo-hero-user-thumb-item wow fadeInUpX" data-wow-delay="0.4s">#}
+    {#                                                            <img src="{% static 'assets/images/v1/user2.png' %}" alt="">#}
+    {#                                                        </div>#}
+    {#                                                    </div>#}
+    {#                                                    <div class="aximo-hero-user-data">#}
+    {#                                                        <p>Believed by more than a thousand people</p>#}
+    {#                                                    </div>#}
+    {#                                                </div>#}
+    {#                        <a class="aximo-call-btn" href="#contact-us">Book a free consultation <i#}
+    {#                                class="icon-call"></i></a>#}
+    {#                        <div class="aximo-hero-shape">#}
+    {#                            <img src="{% static 'assets/images/v1/shape1.png' %}" alt="">#}
+    {#                        </div>#}
     {#                    </div>#}
     {#                </div>#}
-    {#                <div class="col-lg-7">#}
-    {#                    <div class="aximo-default-content clash-grotesk">#}
-    {#                        <h2>We help empower visionary founders</h2>#}
-    {#                        <p>We provide comprehensive support, guidance to early stage startups & entrepreneurs. Our#}
-    {#                            mission is to help transform breakthrough ideas into successful and sustainable#}
-    {#                            businesses.</p>#}
+    {#                <div class="col-lg-4">#}
+    {#                    <div class="aximo-hero-thumb wow fadeInRight" data-wow-delay="0s">#}
+    {#                        <img src="{% static 'assets/images/home/home.webp' %}" alt="">#}
     {#                    </div>#}
-    {#                    <div class="aximo-counter-wrap2">#}
-    {#                        <div class="aximo-counter-data2">#}
-    {#                            <h2><span data-percentage="35" class="aximo-counter"></span>+</h2>#}
-    {#                            <p>Years of experience</p>#}
-    {#                        </div>#}
-    {#                        <div class="aximo-counter-data2">#}
-    {#                            <h2><span data-percentage="84" class="aximo-counter"></span>k</h2>#}
-    {#                            <p>Active monthly users</p>#}
-    {#                        </div>#}
-    {#                        <div class="aximo-counter-data2">#}
-    {#                            <h2><span data-percentage="20" class="aximo-counter"></span>k</h2>#}
-    {#                            <p>Project completed</p>#}
-    {#                        </div>#}
+    {#                </div>#}
+    {#            </div>#}
+    {#        </div>#}
+    {#    </div>#}
+    <!-- End section -->
+    {#    <div class="aximo-auto-slider-section">#}
+    {#        <div class="swiper aximo-auto-slider">#}
+    {#            <div class="swiper-wrapper">#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-auto-slider-item">#}
+    {#                        <h3>Let's create new experiences</h3>#}
+    {#                        <img src="{% static 'assets/images/v1/star3.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-auto-slider-item">#}
+    {#                        <h3>Let's create new experiences</h3>#}
+    {#                        <img src="{% static 'assets/images/v1/star3.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-auto-slider-item">#}
+    {#                        <h3>Let's create new experiences</h3>#}
+    {#                        <img src="{% static 'assets/images/v1/star3.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-auto-slider-item">#}
+    {#                        <h3>Let's create new experiences</h3>#}
+    {#                        <img src="{% static 'assets/images/v1/star3.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-auto-slider-item">#}
+    {#                        <h3>Let's create new experiences</h3>#}
+    {#                        <img src="{% static 'assets/images/v1/star3.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-auto-slider-item">#}
+    {#                        <h3>Let's create new experiences</h3>#}
+    {#                        <img src="{% static 'assets/images/v1/star3.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-auto-slider-item">#}
+    {#                        <h3>Let's create new experiences</h3>#}
+    {#                        <img src="{% static 'assets/images/v1/star3.png' %}" alt="">#}
     {#                    </div>#}
     {#                </div>#}
     {#            </div>#}
@@ -133,7 +293,7 @@
     {#    </div>#}
 
 
-    <div class="section aximo-section-padding">
+    <div id="about-us" class="section aximo-section-padding">
         <div id="aximo-counter"></div>
         <div class="container">
             <div class="aximo-section-title">
@@ -235,8 +395,7 @@
     <!-- End section -->
     {% include 'home/services.html' %}
 
-
-    <div class="section aximo-section-padding3">
+    <div class="section aximo-section-padding2">
         <div class="container">
             <div class="aximo-section-title center">
                 <h2>
@@ -249,136 +408,162 @@
           </span>
                 </h2>
             </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="aximo-testimonial-wrap wow fadeInUpX" data-wow-delay="0.1s">
-                        <div class="aximo-testimonial-rating">
-                            <ul>
-                                <li><i class="icon-star"></i></li>
-                                <li><i class="icon-star"></i></li>
-                                <li><i class="icon-star"></i></li>
-                                <li><i class="icon-star"></i></li>
-                                <li><i class="icon-star"></i></li>
-                            </ul>
+            <div class="swiper aximo-testimonial-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="aximo-testimonial-slider-column">
+                            <div class="aximo-testimonial-slider-wrap">
+                                <div class="aximo-testimonial-slider-thumb">
+                                    <img style="border-radius: 50%"
+                                         src="{% static 'assets/images/v5/testimonial1.png' %}" alt="">
+                                </div>
+                                <div class="aximo-testimonial-slider-author">
+                                    <h5>Name</h5>
+                                    <p>Company</p>
+                                </div>
+                            </div>
+                            <div class="aximo-testimonial-slider-data">
+                                <h3>They exceeded our expectations</h3>
+                                <p>Excellent decoration and ambience created by Function Junction. We appreciate all the
+                                    efforts undertake.</p>
+                            </div>
                         </div>
-                        <div class="aximo-testimonial-data">
-                            <h3>Excellent!</h3>
-                            <p>Excellent decoration and ambience created by Function Junction. We appreciate all the
-                                efforts undertake</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="aximo-testimonial-slider-column">
+                            <div class="aximo-testimonial-slider-wrap">
+                                <div class="aximo-testimonial-slider-thumb">
+                                    <img src="{% static 'assets/images/v5/testimonial1.png' %}" alt="">
+                                </div>
+                                <div class="aximo-testimonial-slider-author">
+                                    <h5>Name</h5>
+                                    <p>Company</p>
+                                </div>
+                            </div>
+                            <div class="aximo-testimonial-slider-data">
+                                <h3>Exceptional creativity and vision</h3>
+                                <p>We recently partnered with Function Junction for our Corporate Event, and it was a
+                                    resounding success! Their decoration was particularly impressive. The entire team
+                                    was very supportive, and we're already planning our next event with them!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="aximo-testimonial-slider-column">
+                            <div class="aximo-testimonial-slider-wrap">
+                                <div class="aximo-testimonial-slider-thumb">
+                                    <img src="{% static 'assets/images/v5/testimonial1.png' %}" alt="">
+                                </div>
+                                <div class="aximo-testimonial-slider-author">
+                                    <h5>Name</h5>
+                                    <p>Company</p>
+                                </div>
+                            </div>
+                            <div class="aximo-testimonial-slider-data">
+                                <h3>Excellent!</h3>
+                                <p>We recently partnered with Function Junction for our Corporate Event, and it was a
+                                    resounding success! Their decoration was particularly impressive. The entire team
+                                    was very supportive, and we're already planning our next event with them!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="aximo-testimonial-wrap wow fadeInUpX" data-wow-delay="0.2s">
-                        <div class="aximo-testimonial-rating">
-                            <ul>
-                                <li><i class="icon-star"></i></li>
-                                <li><i class="icon-star"></i></li>
-                                <li><i class="icon-star"></i></li>
-                                <li><i class="icon-star"></i></li>
-                                <li><i class="icon-star"></i></li>
-                            </ul>
-                        </div>
-                        <div class="aximo-testimonial-data">
-                            <h3>Exceptional creativity and vision</h3>
-                            <p>We recently partnered with Function Junction for our Corporate Event, and it was a
-                                resounding success! Their decoration was particularly impressive. The entire team was
-                                very supportive, and we're already planning our next event with them!</p>
-                        </div>
-                    </div>
-                </div>
+                <div class="swiper-pagination"></div>
             </div>
+
         </div>
     </div>
     <!-- End section -->
 
-    <div style="border-radius: 0%" class="aximo-brandlogo-section ">
-        <div class="swiper aximo-auto-slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="aximo-brandlogo-item">
-                        <img src="{% static 'assets/images/v2/b_6.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-brandlogo-item">
-                        <img src="{% static 'assets/images/v2/b_7.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-brandlogo-item">
-                        <img src="{% static 'assets/images/v2/b_1.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-brandlogo-item">
-                        <img src="{% static 'assets/images/v2/b_2.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-brandlogo-item">
-                        <img src="{% static 'assets/images/v2/b_3.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-brandlogo-item">
-                        <img src="{% static 'assets/images/v2/b_4.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-brandlogo-item">
-                        <img src="{% static 'assets/images/v2/b_5.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-brandlogo-item">
-                        <img src="{% static 'assets/images/v2/b_6.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-brandlogo-item">
-                        <img src="{% static 'assets/images/v2/b_7.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-brandlogo-item">
-                        <img src="{% static 'assets/images/v2/b_1.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-brandlogo-item">
-                        <img src="{% static 'assets/images/v2/b_2.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-brandlogo-item">
-                        <img src="{% static 'assets/images/v2/b_3.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-brandlogo-item">
-                        <img src="{% static 'assets/images/v2/b_4.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-brandlogo-item">
-                        <img src="{% static 'assets/images/v2/b_5.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-brandlogo-item">
-                        <img src="{% static 'assets/images/v2/b_6.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="aximo-brandlogo-item">
-                        <img src="{% static 'assets/images/v2/b_7.png' %}" alt="">
-                    </div>
-                </div>
+    <!-- End section -->
 
-            </div>
-        </div>
-    </div>
+    {#    <div style="border-radius: 0%" class="aximo-brandlogo-section ">#}
+    {#        <div class="swiper aximo-auto-slider">#}
+    {#            <div class="swiper-wrapper">#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-brandlogo-item">#}
+    {#                        <img src="{% static 'assets/images/v2/b_6.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-brandlogo-item">#}
+    {#                        <img src="{% static 'assets/images/v2/b_7.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-brandlogo-item">#}
+    {#                        <img src="{% static 'assets/images/v2/b_1.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-brandlogo-item">#}
+    {#                        <img src="{% static 'assets/images/v2/b_2.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-brandlogo-item">#}
+    {#                        <img src="{% static 'assets/images/v2/b_3.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-brandlogo-item">#}
+    {#                        <img src="{% static 'assets/images/v2/b_4.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-brandlogo-item">#}
+    {#                        <img src="{% static 'assets/images/v2/b_5.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-brandlogo-item">#}
+    {#                        <img src="{% static 'assets/images/v2/b_6.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-brandlogo-item">#}
+    {#                        <img src="{% static 'assets/images/v2/b_7.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-brandlogo-item">#}
+    {#                        <img src="{% static 'assets/images/v2/b_1.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-brandlogo-item">#}
+    {#                        <img src="{% static 'assets/images/v2/b_2.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-brandlogo-item">#}
+    {#                        <img src="{% static 'assets/images/v2/b_3.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-brandlogo-item">#}
+    {#                        <img src="{% static 'assets/images/v2/b_4.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-brandlogo-item">#}
+    {#                        <img src="{% static 'assets/images/v2/b_5.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-brandlogo-item">#}
+    {#                        <img src="{% static 'assets/images/v2/b_6.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="swiper-slide">#}
+    {#                    <div class="aximo-brandlogo-item">#}
+    {#                        <img src="{% static 'assets/images/v2/b_7.png' %}" alt="">#}
+    {#                    </div>#}
+    {#                </div>#}
+    {##}
+    {#            </div>#}
+    {#        </div>#}
+    {#    </div>#}
 
 
     <div class="aximo-auto-slider-section">
@@ -433,6 +618,64 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="section dark-bg aximo-section-padding2 position-relative overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="aximo-default-content familjen-grotesk light m-right-gap">
+                        <h2>Ready to make your event dreams a reality?</h2>
+                        <p>Your vision. Our expertise. Unforgettable memories. Ready to make your event dreams a
+                            reality? Let's chat! Fill out this form or give us a call, and we'll turn your wildest ideas
+                            into stunning celebrations.</p>
+
+                        <div class="aximo-info-wrap">
+                            <div class="aximo-info">
+                                <ul>
+                                    <li>Give us a call:</li>
+                                    <li><a href="">73494 14777</a></li>
+                                </ul>
+                            </div>
+                            <div class="aximo-info">
+                                <ul>
+                                    <li>Email us:</li>
+                                    <li><a href="">hello@thefunctionjunction.co.in</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="aximo-form-wrap2">
+                        <h3>Send us a message</h3>
+                        {#                        <p>Fill out the form and our expert will get back to you with a free analysis and proposal</p>#}
+                        <form action="#">
+                            <div class="aximo-form-field2">
+                                <input type="text" placeholder="Enter full name">
+                            </div>
+                            <div class="aximo-form-field2">
+                                <input type="email" placeholder="Enter email address">
+                            </div>
+                            <div class="aximo-form-field2">
+                                <input type="number" placeholder="Your Phone">
+                            </div>
+                            <div class="aximo-form-field2">
+                                <textarea name="textarea" placeholder="Write your message here..."></textarea>
+                            </div>
+                            <button id="aximo-submit-btn2" type="submit">
+                                <span class="aximo-label-up">Submit now</span>
+                                <span class="aximo-label-up">Submit now</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="aximo-star-shape-half2 wow fadeInUp" data-wow-delay="0.2s">
+            <img src="{% static 'assets/images/v3/star-shape-half3.png' %}" alt="">
         </div>
     </div>
     <!-- End section -->
